@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root{
+  --space: 12px;
+  --blur: 12px;
+  --base: #ffff00;
+}
+body{
+  background: rgb(46, 71, 108);
+  color: white;
+  text-align: center;
+  margin: 12px;
+  font-size: 2.5rem;
+}
+h2 span{
+  text-transform: uppercase;
+  color: var(--base);
+}
+
+.variables-container{
+  display: flex;
+  justify-content: center;
+  margin: 22px;
+  flex-wrap: wrap;
+}
+.variables-container div{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 12px;
+}
+img{
+  padding: var(--space);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
